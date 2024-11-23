@@ -1,0 +1,9 @@
+{"time":"2024-11-11T16:24:21.8041473-08:00","level":"INFO","msg":"using version","core version":"0.18.6"}
+{"time":"2024-11-11T16:24:21.8041473-08:00","level":"INFO","msg":"created symlink","path":"c:\\Users\\e_nkanungo\\Desktop\\MADS_Capstone\\RUL_Prediction\\wandb\\run-20241111_162421-eabqyjnr\\logs\\debug-core.log"}
+{"time":"2024-11-11T16:24:23.819836-08:00","level":"INFO","msg":"created new stream","id":"eabqyjnr"}
+{"time":"2024-11-11T16:24:23.8208483-08:00","level":"INFO","msg":"stream: started","id":"eabqyjnr"}
+{"time":"2024-11-11T16:24:23.8208483-08:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"eabqyjnr"}}
+{"time":"2024-11-11T16:24:23.830941-08:00","level":"INFO","msg":"sender: started","stream_id":"eabqyjnr"}
+{"time":"2024-11-11T16:24:23.830941-08:00","level":"INFO","msg":"handler: started","stream_id":{"value":"eabqyjnr"}}
+{"time":"2024-11-11T16:24:24.1920033-08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-11-11T16:24:28.1669484-08:00","level":"INFO","msg":"Pausing system monitor"}

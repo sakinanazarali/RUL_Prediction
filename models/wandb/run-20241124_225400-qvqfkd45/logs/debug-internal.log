@@ -1,0 +1,11 @@
+{"time":"2024-11-24T22:54:00.9245683-08:00","level":"INFO","msg":"using version","core version":"0.18.6"}
+{"time":"2024-11-24T22:54:00.9245683-08:00","level":"INFO","msg":"created symlink","path":"c:\\Users\\e_nkanungo\\Desktop\\MADS_Capstone\\RUL_Prediction\\models\\wandb\\run-20241124_225400-qvqfkd45\\logs\\debug-core.log"}
+{"time":"2024-11-24T22:54:01.0523606-08:00","level":"INFO","msg":"created new stream","id":"qvqfkd45"}
+{"time":"2024-11-24T22:54:01.0528826-08:00","level":"INFO","msg":"stream: started","id":"qvqfkd45"}
+{"time":"2024-11-24T22:54:01.0528826-08:00","level":"INFO","msg":"sender: started","stream_id":"qvqfkd45"}
+{"time":"2024-11-24T22:54:01.0528826-08:00","level":"INFO","msg":"handler: started","stream_id":{"value":"qvqfkd45"}}
+{"time":"2024-11-24T22:54:01.0528826-08:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"qvqfkd45"}}
+{"time":"2024-11-24T22:54:01.2634109-08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-11-24T23:11:00.2781345-08:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-11-24T23:11:00.4181531-08:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-11-24T23:11:00.69789-08:00","level":"INFO","msg":"Pausing system monitor"}

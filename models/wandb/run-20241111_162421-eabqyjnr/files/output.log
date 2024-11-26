@@ -1,0 +1,5 @@
+{'eval_loss': 0.00866752304136753, 'eval_model_preparation_time': 0.0055, 'eval_runtime': 0.0709, 'eval_samples_per_second': 14.113, 'eval_steps_per_second': 14.113}
+RMSE for Unit 1: 0.017486949794591058
+{'train': [0, 918], 'valid': [406, 1033], 'test': [521, 1147]}
+1148
+Dataset for unit 2 is good

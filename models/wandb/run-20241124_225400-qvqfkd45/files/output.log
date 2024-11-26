@@ -1,0 +1,398 @@
+RMSE for Unit 1 - sensor_2: 0.4727575565139362
+{'train': [0, 1959], 'valid': [1447, 2204], 'test': [1692, 2448]}
+2449
+Dataset for unit 2 is good
+RMSE for Unit 2 - sensor_2: 0.18560477856855015
+{'train': [0, 5101], 'valid': [4589, 5738], 'test': [5226, 6375]}
+6376
+Dataset for unit 3 is good
+RMSE for Unit 3 - sensor_2: 0.32584042712290656
+{'train': [0, 4285], 'valid': [3773, 4820], 'test': [4308, 5355]}
+5356
+Dataset for unit 4 is good
+RMSE for Unit 4 - sensor_2: 0.2444264710459406
+{'train': [0, 3958], 'valid': [3446, 4453], 'test': [3941, 4947]}
+4948
+Dataset for unit 5 is good
+RMSE for Unit 5 - sensor_2: 0.1884562343969509
+{'train': [0, 4244], 'valid': [3732, 4774], 'test': [4262, 5304]}
+5305
+Dataset for unit 6 is good
+RMSE for Unit 6 - sensor_2: 0.39214497506668133
+{'train': [0, 6488], 'valid': [5976, 7299], 'test': [6787, 8109]}
+8110
+Dataset for unit 7 is good
+RMSE for Unit 7 - sensor_2: 0.5291545921322168
+{'train': [0, 6733], 'valid': [6221, 7574], 'test': [7062, 8415]}
+8416
+Dataset for unit 8 is good
+RMSE for Unit 8 - sensor_2: 0.268449837668642
+{'train': [0, 2204], 'valid': [1692, 2480], 'test': [1968, 2754]}
+2755
+Dataset for unit 9 is good
+RMSE for Unit 9 - sensor_2: 0.2766863192874138
+{'train': [0, 7794], 'valid': [7282, 8768], 'test': [8256, 9741]}
+9742
+Dataset for unit 10 is good
+RMSE for Unit 10 - sensor_2: 0.42154317177051126
+{'train': [0, 3346], 'valid': [2834, 3765], 'test': [3253, 4182]}
+4183
+Dataset for unit 11 is good
+RMSE for Unit 11 - sensor_2: 0.3710173258683795
+{'train': [0, 8814], 'valid': [8302, 9915], 'test': [9403, 11016]}
+11017
+Dataset for unit 12 is good
+RMSE for Unit 12 - sensor_2: 0.3092823237926199
+{'train': [0, 7916], 'valid': [7404, 8906], 'test': [8394, 9894]}
+9895
+Dataset for unit 13 is good
+RMSE for Unit 13 - sensor_2: 0.3186277339055948
+{'train': [0, 1837], 'valid': [1325, 2066], 'test': [1554, 2295]}
+2296
+Dataset for unit 14 is good
+RMSE for Unit 14 - sensor_2: 0.14979674377822289
+{'train': [0, 3061], 'valid': [2549, 3443], 'test': [2931, 3825]}
+3826
+Dataset for unit 15 is good
+RMSE for Unit 15 - sensor_2: 0.40660854429048887
+{'train': [0, 4570], 'valid': [4058, 5142], 'test': [4630, 5712]}
+5713
+Dataset for unit 16 is good
+RMSE for Unit 16 - sensor_2: 0.3795671710608835
+{'train': [0, 6692], 'valid': [6180, 7528], 'test': [7016, 8364]}
+8365
+Dataset for unit 17 is good
+RMSE for Unit 17 - sensor_2: 0.42935627157047995
+{'train': [0, 5386], 'valid': [4874, 6060], 'test': [5548, 6732]}
+6733
+Dataset for unit 18 is good
+RMSE for Unit 18 - sensor_2: 0.39244315127071566
+{'train': [0, 5468], 'valid': [4956, 6152], 'test': [5640, 6834]}
+6835
+Dataset for unit 19 is good
+RMSE for Unit 19 - sensor_2: 0.46294521223392954
+{'train': [0, 7467], 'valid': [6955, 8401], 'test': [7889, 9333]}
+9334
+Dataset for unit 20 is good
+RMSE for Unit 20 - sensor_2: 0.3545331914950742
+{'train': [0, 5998], 'valid': [5486, 6748], 'test': [6236, 7497]}
+7498
+Dataset for unit 21 is good
+RMSE for Unit 21 - sensor_2: 0.3096012462921253
+{'train': [0, 1551], 'valid': [1039, 1745], 'test': [1233, 1938]}
+1939
+Dataset for unit 22 is good
+RMSE for Unit 22 - sensor_2: 0.20958430795944913
+{'train': [0, 5264], 'valid': [4752, 5922], 'test': [5410, 6579]}
+6580
+Dataset for unit 23 is good
+RMSE for Unit 23 - sensor_2: 0.3832002894645261
+{'train': [0, 7549], 'valid': [7037, 8492], 'test': [7980, 9435]}
+9436
+Dataset for unit 24 is good
+RMSE for Unit 24 - sensor_2: 0.3472783913253896
+{'train': [0, 1918], 'valid': [1406, 2158], 'test': [1646, 2397]}
+2398
+Dataset for unit 25 is good
+RMSE for Unit 25 - sensor_2: 0.31785021249207646
+{'train': [0, 3061], 'valid': [2549, 3443], 'test': [2931, 3825]}
+3826
+Dataset for unit 26 is good
+RMSE for Unit 26 - sensor_2: 0.4367685647986458
+{'train': [0, 5672], 'valid': [5160, 6381], 'test': [5869, 7089]}
+7090
+Dataset for unit 27 is good
+RMSE for Unit 27 - sensor_2: 0.2688535742755423
+{'train': [0, 6406], 'valid': [5894, 7207], 'test': [6695, 8007]}
+8008
+Dataset for unit 28 is good
+RMSE for Unit 28 - sensor_2: 0.4933524961672111
+{'train': [0, 6937], 'valid': [6425, 7804], 'test': [7292, 8670]}
+8671
+Dataset for unit 29 is good
+RMSE for Unit 29 - sensor_2: 0.3329589410306433
+{'train': [0, 5794], 'valid': [5282, 6519], 'test': [6007, 7242]}
+7243
+Dataset for unit 30 is good
+RMSE for Unit 30 - sensor_2: 0.4376852330184817
+{'train': [0, 7957], 'valid': [7445, 8951], 'test': [8439, 9945]}
+9946
+Dataset for unit 31 is good
+RMSE for Unit 31 - sensor_2: 0.30579626127402826
+{'train': [0, 5876], 'valid': [5364, 6610], 'test': [6098, 7344]}
+7345
+Dataset for unit 32 is good
+RMSE for Unit 32 - sensor_2: 0.33289693111975927
+{'train': [0, 2000], 'valid': [1488, 2250], 'test': [1738, 2499]}
+2500
+Dataset for unit 33 is good
+RMSE for Unit 33 - sensor_2: 0.2946645795118422
+{'train': [0, 8242], 'valid': [7730, 9273], 'test': [8761, 10302]}
+10303
+Dataset for unit 34 is good
+RMSE for Unit 34 - sensor_2: 0.2700953514073249
+{'train': [0, 8038], 'valid': [7526, 9043], 'test': [8531, 10047]}
+10048
+Dataset for unit 35 is good
+RMSE for Unit 35 - sensor_2: 0.36369250044238927
+{'train': [0, 5101], 'valid': [4589, 5738], 'test': [5226, 6375]}
+6376
+Dataset for unit 36 is good
+RMSE for Unit 36 - sensor_2: 0.37137499938140484
+{'train': [0, 4897], 'valid': [4385, 5509], 'test': [4997, 6120]}
+6121
+Dataset for unit 37 is good
+RMSE for Unit 37 - sensor_2: 0.44350066262518084
+{'train': [0, 5060], 'valid': [4548, 5692], 'test': [5180, 6324]}
+6325
+Dataset for unit 38 is good
+RMSE for Unit 38 - sensor_2: 0.2784678547854334
+{'train': [0, 1470], 'valid': [958, 1653], 'test': [1141, 1836]}
+1837
+Dataset for unit 39 is good
+RMSE for Unit 39 - sensor_2: 0.2595342560641819
+{'train': [0, 5386], 'valid': [4874, 6060], 'test': [5548, 6732]}
+6733
+Dataset for unit 40 is good
+RMSE for Unit 40 - sensor_2: 0.2316247420031222
+{'train': [0, 4978], 'valid': [4466, 5601], 'test': [5089, 6222]}
+6223
+Dataset for unit 41 is good
+RMSE for Unit 41 - sensor_2: 0.297044723277774
+{'train': [0, 6325], 'valid': [5813, 7115], 'test': [6603, 7905]}
+7906
+Dataset for unit 42 is good
+RMSE for Unit 42 - sensor_2: 0.5121928937261132
+{'train': [0, 6978], 'valid': [6466, 7850], 'test': [7338, 8721]}
+8722
+Dataset for unit 43 is good
+RMSE for Unit 43 - sensor_2: 0.3891690114681707
+{'train': [0, 2163], 'valid': [1651, 2434], 'test': [1922, 2703]}
+2704
+Dataset for unit 44 is good
+RMSE for Unit 44 - sensor_2: 0.16689729428687486
+{'train': [0, 6162], 'valid': [5650, 6932], 'test': [6420, 7701]}
+7702
+Dataset for unit 45 is good
+RMSE for Unit 45 - sensor_2: 0.2176319922785485
+{'train': [0, 5917], 'valid': [5405, 6656], 'test': [6144, 7395]}
+7396
+Dataset for unit 46 is good
+RMSE for Unit 46 - sensor_2: 0.37571126504073477
+{'train': [0, 2938], 'valid': [2426, 3306], 'test': [2794, 3672]}
+3673
+Dataset for unit 47 is good
+RMSE for Unit 47 - sensor_2: 0.23767913051428577
+{'train': [0, 3142], 'valid': [2630, 3535], 'test': [3023, 3927]}
+3928
+Dataset for unit 48 is good
+RMSE for Unit 48 - sensor_2: 0.36756674153662267
+{'train': [0, 12322], 'valid': [11810, 13863], 'test': [13351, 15402]}
+15403
+Dataset for unit 49 is good
+RMSE for Unit 49 - sensor_2: 0.4243497002276795
+{'train': [0, 2979], 'valid': [2467, 3352], 'test': [2840, 3723]}
+3724
+Dataset for unit 50 is good
+RMSE for Unit 50 - sensor_2: 0.14316881956709246
+{'train': [0, 5835], 'valid': [5323, 6565], 'test': [6053, 7293]}
+7294
+Dataset for unit 51 is good
+RMSE for Unit 51 - sensor_2: 0.37532039099700587
+{'train': [0, 7671], 'valid': [7159, 8630], 'test': [8118, 9588]}
+9589
+Dataset for unit 52 is good
+RMSE for Unit 52 - sensor_2: 0.42873445295060864
+{'train': [0, 6651], 'valid': [6139, 7483], 'test': [6971, 8313]}
+8314
+Dataset for unit 53 is good
+RMSE for Unit 53 - sensor_2: 0.39341269644935134
+{'train': [0, 4897], 'valid': [4385, 5509], 'test': [4997, 6120]}
+6121
+Dataset for unit 54 is good
+RMSE for Unit 54 - sensor_2: 0.2776398607523827
+{'train': [0, 4570], 'valid': [4058, 5142], 'test': [4630, 5712]}
+5713
+Dataset for unit 55 is good
+RMSE for Unit 55 - sensor_2: 0.42448834606374747
+{'train': [0, 5509], 'valid': [4997, 6197], 'test': [5685, 6885]}
+6886
+Dataset for unit 56 is good
+RMSE for Unit 56 - sensor_2: 0.3977297244447461
+{'train': [0, 6488], 'valid': [5976, 7299], 'test': [6787, 8109]}
+8110
+Dataset for unit 57 is good
+RMSE for Unit 57 - sensor_2: 0.2693583805801492
+{'train': [0, 7141], 'valid': [6629, 8033], 'test': [7521, 8925]}
+8926
+Dataset for unit 58 is good
+RMSE for Unit 58 - sensor_2: 0.313336850428216
+{'train': [0, 3795], 'valid': [3283, 4270], 'test': [3758, 4743]}
+4744
+Dataset for unit 59 is good
+RMSE for Unit 59 - sensor_2: 0.46622018021460365
+{'train': [0, 5958], 'valid': [5446, 6702], 'test': [6190, 7446]}
+7447
+Dataset for unit 60 is good
+RMSE for Unit 60 - sensor_2: 0.42093934591395693
+{'train': [0, 6447], 'valid': [5935, 7253], 'test': [6741, 8058]}
+8059
+Dataset for unit 61 is good
+RMSE for Unit 61 - sensor_2: 0.36958841481745375
+{'train': [0, 9426], 'valid': [8914, 10604], 'test': [10092, 11781]}
+11782
+Dataset for unit 62 is good
+RMSE for Unit 62 - sensor_2: 0.49793935314917
+{'train': [0, 6284], 'valid': [5772, 7070], 'test': [6558, 7854]}
+7855
+Dataset for unit 63 is good
+RMSE for Unit 63 - sensor_2: 0.5370570202720367
+{'train': [0, 6814], 'valid': [6302, 7666], 'test': [7154, 8517]}
+8518
+Dataset for unit 64 is good
+RMSE for Unit 64 - sensor_2: 0.3134267499696364
+{'train': [0, 2857], 'valid': [2345, 3214], 'test': [2702, 3570]}
+3571
+Dataset for unit 65 is good
+RMSE for Unit 65 - sensor_2: 0.2967703951711763
+{'train': [0, 5958], 'valid': [5446, 6702], 'test': [6190, 7446]}
+7447
+Dataset for unit 66 is good
+RMSE for Unit 66 - sensor_2: 0.31970466176234397
+{'train': [0, 2857], 'valid': [2345, 3214], 'test': [2702, 3570]}
+3571
+Dataset for unit 67 is good
+RMSE for Unit 67 - sensor_2: 0.2473713635816011
+{'train': [0, 7590], 'valid': [7078, 8538], 'test': [8026, 9486]}
+9487
+Dataset for unit 68 is good
+RMSE for Unit 68 - sensor_2: 0.3553913749429965
+{'train': [0, 2163], 'valid': [1651, 2434], 'test': [1922, 2703]}
+2704
+Dataset for unit 69 is good
+RMSE for Unit 69 - sensor_2: 0.7072172241325886
+{'train': [0, 6162], 'valid': [5650, 6932], 'test': [6420, 7701]}
+7702
+Dataset for unit 70 is good
+RMSE for Unit 70 - sensor_2: 0.43927011990874026
+{'train': [0, 2734], 'valid': [2222, 3076], 'test': [2564, 3417]}
+3418
+Dataset for unit 71 is good
+RMSE for Unit 71 - sensor_2: 0.29872258910534355
+{'train': [0, 5305], 'valid': [4793, 5968], 'test': [5456, 6630]}
+6631
+Dataset for unit 72 is good
+RMSE for Unit 72 - sensor_2: 0.39765200688744934
+{'train': [0, 4530], 'valid': [4018, 5096], 'test': [4584, 5661]}
+5662
+Dataset for unit 73 is good
+RMSE for Unit 73 - sensor_2: 0.39698533274165315
+{'train': [0, 5550], 'valid': [5038, 6243], 'test': [5731, 6936]}
+6937
+Dataset for unit 74 is good
+RMSE for Unit 74 - sensor_2: 0.2740062934789958
+{'train': [0, 3550], 'valid': [3038, 3994], 'test': [3482, 4437]}
+4438
+Dataset for unit 75 is good
+RMSE for Unit 75 - sensor_2: 0.41931917174069383
+{'train': [0, 8324], 'valid': [7812, 9364], 'test': [8852, 10404]}
+10405
+Dataset for unit 76 is good
+RMSE for Unit 76 - sensor_2: 0.38712351814836504
+{'train': [0, 6570], 'valid': [6058, 7391], 'test': [6879, 8211]}
+8212
+Dataset for unit 77 is good
+RMSE for Unit 77 - sensor_2: 0.2899808943547651
+{'train': [0, 2898], 'valid': [2386, 3260], 'test': [2748, 3621]}
+3622
+Dataset for unit 78 is good
+RMSE for Unit 78 - sensor_2: 0.3029399424766002
+{'train': [0, 4081], 'valid': [3569, 4591], 'test': [4079, 5100]}
+5101
+Dataset for unit 79 is good
+RMSE for Unit 79 - sensor_2: 0.3176015987269796
+{'train': [0, 5386], 'valid': [4874, 6060], 'test': [5548, 6732]}
+6733
+Dataset for unit 80 is good
+RMSE for Unit 80 - sensor_2: 0.4030553682252746
+{'train': [0, 8650], 'valid': [8138, 9732], 'test': [9220, 10812]}
+10813
+Dataset for unit 81 is good
+RMSE for Unit 81 - sensor_2: 0.47796476879774014
+{'train': [0, 6570], 'valid': [6058, 7391], 'test': [6879, 8211]}
+8212
+Dataset for unit 82 is good
+RMSE for Unit 82 - sensor_2: 0.45399004201638266
+{'train': [0, 2938], 'valid': [2426, 3306], 'test': [2794, 3672]}
+3673
+Dataset for unit 83 is good
+RMSE for Unit 83 - sensor_2: 0.2581772051919194
+{'train': [0, 6978], 'valid': [6466, 7850], 'test': [7338, 8721]}
+8722
+Dataset for unit 84 is good
+RMSE for Unit 84 - sensor_2: 0.36881242982846263
+{'train': [0, 1347], 'valid': [835, 1516], 'test': [1004, 1683]}
+1684
+Dataset for unit 85 is good
+RMSE for Unit 85 - sensor_2: 0.163523531597719
+{'train': [0, 4448], 'valid': [3936, 5004], 'test': [4492, 5559]}
+5560
+Dataset for unit 86 is good
+RMSE for Unit 86 - sensor_2: 0.457989447653487
+{'train': [0, 2245], 'valid': [1733, 2525], 'test': [2013, 2805]}
+2806
+Dataset for unit 87 is good
+RMSE for Unit 87 - sensor_2: 0.5095517026014308
+{'train': [0, 2734], 'valid': [2222, 3076], 'test': [2564, 3417]}
+3418
+Dataset for unit 88 is good
+RMSE for Unit 88 - sensor_2: 0.4473508247519488
+{'train': [0, 7182], 'valid': [6670, 8079], 'test': [7567, 8976]}
+8977
+Dataset for unit 89 is good
+RMSE for Unit 89 - sensor_2: 0.4994964286941347
+{'train': [0, 5917], 'valid': [5405, 6656], 'test': [6144, 7395]}
+7396
+Dataset for unit 90 is good
+RMSE for Unit 90 - sensor_2: 0.44084067406438154
+{'train': [0, 9507], 'valid': [8995, 10696], 'test': [10184, 11883]}
+11884
+Dataset for unit 91 is good
+RMSE for Unit 91 - sensor_2: 0.38049548984433074
+{'train': [0, 6080], 'valid': [5568, 6840], 'test': [6328, 7599]}
+7600
+Dataset for unit 92 is good
+RMSE for Unit 92 - sensor_2: 0.4056815798990677
+{'train': [0, 9915], 'valid': [9403, 11155], 'test': [10643, 12393]}
+12394
+Dataset for unit 93 is good
+RMSE for Unit 93 - sensor_2: 0.4257923354081739
+{'train': [0, 5386], 'valid': [4874, 6060], 'test': [5548, 6732]}
+6733
+Dataset for unit 94 is good
+RMSE for Unit 94 - sensor_2: 0.30443773475149344
+{'train': [0, 3591], 'valid': [3079, 4040], 'test': [3528, 4488]}
+4489
+Dataset for unit 95 is good
+RMSE for Unit 95 - sensor_2: 0.5921749544792457
+{'train': [0, 3918], 'valid': [3406, 4407], 'test': [3895, 4896]}
+4897
+Dataset for unit 96 is good
+RMSE for Unit 96 - sensor_2: 0.22449058191099583
+{'train': [0, 5427], 'valid': [4915, 6106], 'test': [5594, 6783]}
+6784
+Dataset for unit 97 is good
+RMSE for Unit 97 - sensor_2: 0.30124188704569993
+{'train': [0, 4897], 'valid': [4385, 5509], 'test': [4997, 6120]}
+6121
+Dataset for unit 98 is good
+RMSE for Unit 98 - sensor_2: 0.413336966513266
+{'train': [0, 3918], 'valid': [3406, 4407], 'test': [3895, 4896]}
+4897
+Dataset for unit 99 is good
+RMSE for Unit 99 - sensor_2: 0.2615161880432788
+{'train': [0, 8038], 'valid': [7526, 9043], 'test': [8531, 10047]}
+10048
+Dataset for unit 100 is good
+RMSE for Unit 100 - sensor_2: 0.3813395580716053
+Average RMSE:  0.35805942953756187

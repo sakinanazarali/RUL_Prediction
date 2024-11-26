@@ -1,0 +1,28 @@
+RMSE for Unit 1 - sensor_2: 0.4727575565139362
+{'train': [0, 1959], 'valid': [1447, 2204], 'test': [1692, 2448]}
+2449
+Dataset for unit 2 is good
+RMSE for Unit 2 - sensor_2: 0.18560477856855015
+{'train': [0, 5101], 'valid': [4589, 5738], 'test': [5226, 6375]}
+6376
+Dataset for unit 3 is good
+RMSE for Unit 3 - sensor_2: 0.32584042712290656
+{'train': [0, 4285], 'valid': [3773, 4820], 'test': [4308, 5355]}
+5356
+Dataset for unit 4 is good
+RMSE for Unit 4 - sensor_2: 0.2444264710459406
+{'train': [0, 3958], 'valid': [3446, 4453], 'test': [3941, 4947]}
+4948
+Dataset for unit 5 is good
+RMSE for Unit 5 - sensor_2: 0.1884562343969509
+{'train': [0, 4244], 'valid': [3732, 4774], 'test': [4262, 5304]}
+5305
+Dataset for unit 6 is good
+RMSE for Unit 6 - sensor_2: 0.39214497506668133
+{'train': [0, 6488], 'valid': [5976, 7299], 'test': [6787, 8109]}
+8110
+Dataset for unit 7 is good
+RMSE for Unit 7 - sensor_2: 0.5291545921322168
+{'train': [0, 6733], 'valid': [6221, 7574], 'test': [7062, 8415]}
+8416
+Dataset for unit 8 is good

@@ -1,0 +1,11 @@
+{"time":"2024-11-24T18:36:40.1242525-08:00","level":"INFO","msg":"using version","core version":"0.18.6"}
+{"time":"2024-11-24T18:36:40.1242525-08:00","level":"INFO","msg":"created symlink","path":"c:\\Users\\e_nkanungo\\Desktop\\MADS_Capstone\\RUL_Prediction\\models\\wandb\\run-20241124_183640-98ak2v52\\logs\\debug-core.log"}
+{"time":"2024-11-24T18:36:40.2478177-08:00","level":"INFO","msg":"created new stream","id":"98ak2v52"}
+{"time":"2024-11-24T18:36:40.2478177-08:00","level":"INFO","msg":"stream: started","id":"98ak2v52"}
+{"time":"2024-11-24T18:36:40.2478177-08:00","level":"INFO","msg":"sender: started","stream_id":"98ak2v52"}
+{"time":"2024-11-24T18:36:40.2478177-08:00","level":"INFO","msg":"handler: started","stream_id":{"value":"98ak2v52"}}
+{"time":"2024-11-24T18:36:40.2478177-08:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"98ak2v52"}}
+{"time":"2024-11-24T18:36:40.4981884-08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-11-24T18:53:46.6466029-08:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-11-24T18:53:46.8117002-08:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-11-24T18:53:47.0372413-08:00","level":"INFO","msg":"Pausing system monitor"}

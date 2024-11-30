@@ -1,0 +1,100 @@
+For the RUL Prediction project, dependencies exist on the following libraries:
+
+Sklearn
+TensorFlow
+Keras
+Matplotlib
+Altair
+Seaborn
+Pandas
+NumPy
+SuperSmoother
+OS module (nested within Python's Standard Library)
+torch
+optuna
+Pickle module (nested within Python's Standard Library)
+
+
+
+
+DATA CLEANING/PREPROCESSING
+The data cleaning workbooks (data_cleaning.ipynb, data_cleaning_no_batching.ipynb) utilized the following library versions:
+	SuperSmoother
+	Pandas
+	NumPy
+	Seaborn
+	Matplotlib
+	OS
+	Pickle
+
+The data processing workbooks (data_processing.ipynb, data_processing_with_smoothing.ipynb) utilized the following library versions:
+	SuperSmoother
+	Pandas
+	NumPy
+	Sklearn
+	Matplotlib
+	OS
+	Pickle
+
+The data smoothing workbook (produce_smoothed_datasets.ipynb) utilized the following library versions:
+	Pandas
+	NumPy
+	Matplotlib
+	Seaborn
+	SuperSmoother
+	OS
+
+TTM MODELING
+The TTM modeling workbooks (.ipynb) utilized the following library versions:
+
+CNN MODELING
+The CNN modeling workbooks (CNN.ipynb, CNN_Smooth.ipynb) utilized the following library versions:
+	Pandas 2.2.3
+	Numpy 2.0.2
+	Altair 5.4.1
+	sklearn 1.5.0
+	Keras 3.6.0
+
+GBDT MODELING
+The GBDT modeling workbooks (GBDT-Raw.ipynb, GBDT-Smooth.ipynb) utilized the following library versions:
+	Pandas 2.2.3
+	Numpy 2.0.2
+	Altair 5.4.1
+	sklearn 1.5.0
+	matplotlib 3.9.0
+
+SDAE MODELING
+The SDAE modeling workbook (SDAE.ipynb) utilized the following library versions:
+	OS
+	Pickle
+	Torch
+	NumPy
+	Sklearn
+	Optuna
+
+LSTM MODELING
+The LSTM modeling workbook (LSTM.ipynb) utilized the following library versions:
+	OS
+	Pickle
+	NumPy
+	TensorFlow
+	Sklearn
+	Optuna
+	Keras_tuner
+	Keras
+
+RNN MODELING
+The RNN modeling workbook (RNN.ipynb) utilized the following library versions:
+	Torch
+	Sklearn
+	NumPy
+	OS
+	Pickle
+	Optuna
+	
+
+
+
+
+
+

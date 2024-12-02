@@ -34,7 +34,7 @@
 	<li>Rather than replicating Section 3.0, advised to look at the log results instead.</li>
 	<li>Saves a log of the tuning iterations, a final trained model (as a pickle file), and results from the final model.</li>
 	<li>Inputs: <strong>THERE IS A BREAK IN THE PIPELINE HERE - FILENAMES NEED TO BE ADDRESSED</strong></li>
-	<li>Outputs: "CNN_log.csv", "CNN_model_trained.pkl", "CNN_model_trained_test_predictions.npy"
+	<li>Outputs: "CNN_log.csv", "CNN_model_trained.keras", "CNN_model_trained_test_predictions.npy", "CNN_model_history.pkl"
 	</ul>
 </li>
 <li>In the "models" folder, run the workbook "LSTM.ipynb" from top to bottom.

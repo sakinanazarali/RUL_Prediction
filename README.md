@@ -11,6 +11,7 @@
 
 
 ## 3.0 Pipeline
+### 3.1 Traditional Models
 <p>To replicate the modeling results, follow these steps:</p>
 <ol>
 <li>In the "data_processing" folder, run the workbook "data_cleaning.ipynb" from top to bottom. 
@@ -24,7 +25,7 @@
 	<ul>
 	<li>This scales, batches, adds a designated maximum RUL for each data row in the train set, and returns batched and unbatched data for input into the models.</li>
 	<li>Inputs: 'missing_indices.npy', 'train_FD001.txt', 'test_FD001.txt', and 'RUL_FD001.txt'</li>
-	<li>Outputs:<strong>THERE IS A BREAK IN THE PIPELINE HERE - FILENAMES NEED TO BE ADDRESSED</strong> 'train_data_batches.pkl', 'train_target_values.pkl', 'test_data_batches.pkl', 'true_rul_values.pkl', 'train_data_no_batches.pkl', and 'test_data_no_batches.pkl'</li>
+	<li>Outputs: 'train_data_batches.pkl', 'train_target_values.pkl', 'test_data_batches.pkl', 'true_rul_values.pkl', 'train_data_no_batches.pkl', and 'test_data_no_batches.pkl'</li>
 	</ul>
 </li>
 <li>In the "models" folder, run the workbook "CNN.ipynb" from top to bottom.
@@ -33,15 +34,15 @@
 	<li>Deciding which parameters/variables to change in each tuning group was an iterative process and took some time.</li>
 	<li>Rather than replicating Section 3.0, advised to look at the log results instead.</li>
 	<li>Saves a log of the tuning iterations, a final trained model (as a pickle file), and results from the final model.</li>
-	<li>Inputs: <strong>THERE IS A BREAK IN THE PIPELINE HERE - FILENAMES NEED TO BE ADDRESSED</strong></li>
-	<li>Outputs: "CNN_log.csv", "CNN_model_trained.keras", "CNN_model_trained_test_predictions.npy", "CNN_model_history.pkl"
+	<li>Inputs: from the "data/batched_data_pickle_files/" directory: "processed_test_data.pkl", "processed_train_data.pkl", "processed_train_targets.pkl", "true_rul.pkl" </li>
+	<li>Outputs: "CNN_log.csv", "CNN_model_trained.keras", "CNN_model_trained_test_predictions.npy", "CNN_model_history.pkl"</li>
 	</ul>
 </li>
 <li>In the "models" folder, run the workbook "LSTM.ipynb" from top to bottom.
 	<ul>
 	<li>This trains and tests a series of LSTM models using Optuna.</li>
 	<li>The best model is saved as a separate file and then evaluated on the test set.</li>
-	<li>Inputs: <strong>THERE IS A BREAK IN THE PIPELINE HERE - FILENAMES NEED TO BE ADDRESSED</strong></li>
+	<li>Inputs: from the "data/batched_data_pickle_files/" directory: "processed_test_data.pkl", "processed_train_data.pkl", "processed_train_targets.pkl", "true_rul.pkl"</li>
 	<li>Output: 'best_rul_lstm_model_optuna.h5'</li>
 	</ul>
 </li>
@@ -49,7 +50,7 @@
 	<ul>
 	<li>This trains and tests a series of RNN models using Optuna.</li>
 	<li>The best model is saved as a separate file and then evaluated on the test set.</li>
-	<li>Inputs: <strong>THERE IS A BREAK IN THE PIPELINE HERE - FILENAMES NEED TO BE ADDRESSED</strong></li>
+	<li>Inputs: from the "data/batched_data_pickle_files/" directory: "processed_test_data.pkl", "processed_train_data.pkl", "processed_train_targets.pkl", "true_rul.pkl"</li>
 	<li>Output: 'best_rul_rnn_model_optuna.h5'</li>
 	</ul>
 </li>
@@ -57,7 +58,7 @@
 	<ul>
 	<li>This trains and tests a series of SDAE models using Optuna.</li>
 	<li>The best model is saved as a separate file and then evaluated on the test set.</li>
-	<li>Inputs: <strong>THERE IS A BREAK IN THE PIPELINE HERE - FILENAMES NEED TO BE ADDRESSED</strong></li>
+	<li>Inputs: from the "data/batched_data_pickle_files/" directory: "processed_test_data.pkl", "processed_train_data.pkl", "processed_train_targets.pkl", "true_rul.pkl"</li>
 	<li>Output: 'best_sdae_model_optuna_second.pth'</li>
 	</ul>
 </li>
@@ -69,7 +70,22 @@
 	<li>Rather than replicating Section 3.0, advised to look at the log results instead.</li>
 	<li>Saves a log of the tuning iterations, a final trained model (as a pickle file), and results from the final model.</li>
 	<li>Inputs: 'missing_indices.npy', 'train_FD001.txt', 'test_FD001.txt', and 'RUL_FD001.txt'</li>
-	<li>Outputs: "GBDT_log.csv", "GBDT_model_trained.pkl", "GBDT_model_trained_test_predictions.npy"
+	<li>Outputs: "GBDT_log.csv", "GBDT_model_trained.pkl", "GBDT_model_trained_test_predictions.npy"</li>
 	</ul>
 </li>
-<li><strong>PIPELINE FOR TTM GOES HERE</strong></li>
+</ol>
+
+### 3.2 Tiny Time Mixer Model
+<ol>
+<li>
+Run Steps #1 and #2 as described in Section 3.1 of this README file. This will process the data and prepare input files for the TTM models.
+</li>
+
+<li>In the 'models' folder, run the workbook "FM_TTM-unsmoothed.ipynb" from top to bottom.
+	<ul>
+	<li>The workbook displays plots of time series forecasting predictions.</li>
+	<li>Inputs - from the "data/processed_data_pickle_files_no_smoothing/" directory: "test_data_no_batches.pkl" </li>
+	<li>Outputs - None of relevance. Results are realized and visualized in the notebook.</li>
+	</ul>
+</li>
+</ol>

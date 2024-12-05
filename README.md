@@ -12,7 +12,7 @@
 
 ## 3.0 Pipeline
 ### 3.1 Traditional Models
-<p>To replicate the modeling results, follow these steps:</p>
+<p>To replicate the modeling process, follow these steps:</p>
 <ol>
 <li>In the "data_processing" folder, run the workbook "data_cleaning.ipynb" from top to bottom. 
 	<ul>
@@ -90,14 +90,25 @@ Run Steps #1 and #2 as described in Section 3.1 of this README file. This will p
 </li>
 </ol>
 
+
 ## 4.0 Directory Tree
 <p>
 <strong>RUL_Prediction </strong>
 <ol>
-	<li><strong>analysis</strong> - contains evaluation metrics workbook; provides code examples for different metrics. </li>
-	<li><strong>data</strong> - contains data, both raw and processed. 
+	<li><strong>ARCHIVE</strong> - contains workbooks & files saved by the authors for future reference, but were not used in the final project deliverable. </li>
+	<li><strong>data</strong> - contains data, both raw and processed. Also contains "missing_indices.npy" which designated the selected features to use for modeling.
 		<ul>
 			<li><strong>CMAPSSData</strong> - original data as it was obtained from the NASA repository; also contains an informative paper from the data creators and a readme.</li>
-			<li><strong>
+			<li><strong>batched_data_pickle_files</strong> - batched data files used for the original modeling.</li>
+			<li><strong>processed_data_pickle_files_no_smoothing</strong> - data files produced by the most recent "data_processing.ipynb" workbook.</li>
+		</ul>
+	</li>
+	<li><strong>data_processing</strong> - contains data cleaning and data processing workbooks. Processed the data to prepare it for the individual model inputs.</li>
+	<li><strong>models</strong> - contains all modeling workbooks, saved final models, model logs, and the "Visualizations.ipynb" workbook. 
+		<ul>
+			<li><stong>wandb</stong>- contains modeling logs from the TTM analysis. </li>
+		</ul>
+	</li>
+</ol>
 
-</li>
+

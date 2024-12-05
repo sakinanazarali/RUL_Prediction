@@ -93,8 +93,8 @@ Run Steps #1 and #2 as described in Section 3.1 of this README file. This will p
 
 ## 4.0 Directory Tree
 <p>
-<strong>RUL_Prediction </strong>
-<ol>
+<strong>RUL_Prediction </strong> - main directory, contains subdirectories, README file, and requirements file.
+<ul>
 	<li><strong>ARCHIVE</strong> - contains workbooks & files saved by the authors for future reference, but were not used in the final project deliverable. </li>
 	<li><strong>data</strong> - contains data, both raw and processed. Also contains "missing_indices.npy" which designated the selected features to use for modeling.
 		<ul>
@@ -109,6 +109,6 @@ Run Steps #1 and #2 as described in Section 3.1 of this README file. This will p
 			<li><stong>wandb</stong>- contains modeling logs from the TTM analysis. </li>
 		</ul>
 	</li>
-</ol>
-
+</ul>
+</p>
 

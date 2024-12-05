@@ -89,3 +89,15 @@ Run Steps #1 and #2 as described in Section 3.1 of this README file. This will p
 	</ul>
 </li>
 </ol>
+
+## 4.0 Directory Tree
+<p>
+<strong>RUL_Prediction </strong>
+<ol>
+	<li><strong>analysis</strong> - contains evaluation metrics workbook; provides code examples for different metrics. </li>
+	<li><strong>data</strong> - contains data, both raw and processed. 
+		<ul>
+			<li><strong>CMAPSSData</strong> - original data as it was obtained from the NASA repository; also contains an informative paper from the data creators and a readme.</li>
+			<li><strong>
+
+</li>

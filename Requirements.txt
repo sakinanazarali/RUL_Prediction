@@ -10,9 +10,14 @@ Pandas
 NumPy
 SuperSmoother
 OS module (nested within Python's Standard Library)
+math
+tempfile
+transformers
+tsfm_public
 torch
 optuna
 Pickle module (nested within Python's Standard Library)
+
 
 
 
@@ -46,6 +51,17 @@ The data smoothing workbook (produce_smoothed_datasets.ipynb) utilized the follo
 
 TTM MODELING
 The TTM modeling workbooks (.ipynb) utilized the following library versions:
+	OS
+	math
+	tempfile
+	torch
+	transformers
+	numpy
+	pandas
+	pickle
+	matplotlib
+	sklearn
+	tsfm_public
 
 CNN MODELING
 The CNN modeling workbooks (CNN.ipynb, CNN_Smooth.ipynb) utilized the following library versions:

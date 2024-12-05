@@ -43,7 +43,7 @@
 	<li>This trains and tests a series of LSTM models using Optuna.</li>
 	<li>The best model is saved as a separate file and then evaluated on the test set.</li>
 	<li>Inputs: from the "data/batched_data_pickle_files/" directory: "processed_test_data.pkl", "processed_train_data.pkl", "processed_train_targets.pkl", "true_rul.pkl"</li>
-	<li>Output: 'best_rul_lstm_model_optuna.h5'</li>
+	<li>Output: 'best_rul_lstm_model_optuna.h5', 'lstm_predictions.npy'</li>
 	</ul>
 </li>
 <li>In the "models" folder, run the workbook "RNN.ipynb" from top to bottom.
@@ -51,7 +51,7 @@
 	<li>This trains and tests a series of RNN models using Optuna.</li>
 	<li>The best model is saved as a separate file and then evaluated on the test set.</li>
 	<li>Inputs: from the "data/batched_data_pickle_files/" directory: "processed_test_data.pkl", "processed_train_data.pkl", "processed_train_targets.pkl", "true_rul.pkl"</li>
-	<li>Output: 'best_rul_rnn_model_optuna.h5'</li>
+	<li>Output: 'best_rul_rnn_model_optuna.h5', 'rnn_predictions.npy'</li>
 	</ul>
 </li>
 <li>In the "models" folder, run the workbook "SDAE.ipynb" from top to bottom.
@@ -59,7 +59,7 @@
 	<li>This trains and tests a series of SDAE models using Optuna.</li>
 	<li>The best model is saved as a separate file and then evaluated on the test set.</li>
 	<li>Inputs: from the "data/batched_data_pickle_files/" directory: "processed_test_data.pkl", "processed_train_data.pkl", "processed_train_targets.pkl", "true_rul.pkl"</li>
-	<li>Output: 'best_sdae_model_optuna_second.pth'</li>
+	<li>Output: 'best_sdae_model_optuna_second.pth', 'sdae_predictions.npy'</li>
 	</ul>
 </li>
 <li>In the "models" folder, run the workbook "GBDT_Raw.ipynb" from top to bottom.
@@ -106,7 +106,7 @@ Run Steps #1 and #2 as described in Section 3.1 of this README file. This will p
 	<li><strong>data_processing</strong> - contains data cleaning and data processing workbooks. Processed the data to prepare it for the individual model inputs.</li>
 	<li><strong>models</strong> - contains all modeling workbooks, saved final models, model logs, and the "Visualizations.ipynb" workbook. 
 		<ul>
-			<li><stong>wandb</stong>- contains modeling logs from the TTM analysis. </li>
+			<li><strong>wandb</strong>- contains modeling logs from the TTM analysis. </li>
 		</ul>
 	</li>
 </ul>

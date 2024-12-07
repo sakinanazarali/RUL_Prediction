@@ -14,21 +14,21 @@
 ### 3.1 Traditional Models
 <p>To replicate the modeling process, follow these steps:</p>
 <ol>
-<li>In the "data_processing" folder, run the workbook "data_cleaning.ipynb" from top to bottom. 
+<li>In the "data_processing" folder, run the notebook "data_cleaning.ipynb" from top to bottom. 
 	<ul>
 	<li>This provides exploratory visualizations, adds headers to the data, and outputs a "missing_indices.npy" file that designates which fields will be discarded in modeling.</li>
 	<li>Inputs: Raw datafiles as provided by NASA - 'train_FD001.txt', 'test_FD001.txt', and 'RUL_FD001.txt'. </li>
 	<li>Output: 'missing_indices.npy' - a list of indices of field to be dropped when modeling. Saved to the "data" folder.</li>
 	</ul>
 </li>
-<li>In the "data_processing" folder, run the workbook "data_processing.ipynb" from top to bottom.
+<li>In the "data_processing" folder, run the notebook "data_processing.ipynb" from top to bottom.
 	<ul>
 	<li>This scales, batches, adds a designated maximum RUL for each data row in the train set, and returns batched and unbatched data for input into the models.</li>
 	<li>Inputs: 'missing_indices.npy', 'train_FD001.txt', 'test_FD001.txt', and 'RUL_FD001.txt'</li>
 	<li>Outputs: 'train_data_batches.pkl', 'train_target_values.pkl', 'test_data_batches.pkl', 'true_rul_values.pkl', 'train_data_no_batches.pkl', and 'test_data_no_batches.pkl'</li>
 	</ul>
 </li>
-<li>In the "models" folder, run the workbook "CNN.ipynb" from top to bottom.
+<li>In the "models" folder, run the notebook "CNN.ipynb" from top to bottom.
 	<ul>
 	<li>This trains and tests a series of CNN models, saving the metrics in a log file.</li>
 	<li>Deciding which parameters/variables to change in each tuning group was an iterative process and took some time.</li>
@@ -38,7 +38,7 @@
 	<li>Outputs: "CNN_log.csv", "CNN_model_trained.keras", "CNN_model_trained_test_predictions.npy", "CNN_model_history.pkl"</li>
 	</ul>
 </li>
-<li>In the "models" folder, run the workbook "LSTM.ipynb" from top to bottom.
+<li>In the "models" folder, run the notebook "LSTM.ipynb" from top to bottom.
 	<ul>
 	<li>This trains and tests a series of LSTM models using Optuna.</li>
 	<li>The best model is saved as a separate file and then evaluated on the test set.</li>
@@ -46,7 +46,7 @@
 	<li>Output: 'best_rul_lstm_model_optuna.h5', 'lstm_predictions.npy'</li>
 	</ul>
 </li>
-<li>In the "models" folder, run the workbook "RNN.ipynb" from top to bottom.
+<li>In the "models" folder, run the notebook "RNN.ipynb" from top to bottom.
 	<ul>
 	<li>This trains and tests a series of RNN models using Optuna.</li>
 	<li>The best model is saved as a separate file and then evaluated on the test set.</li>
@@ -54,7 +54,7 @@
 	<li>Output: 'best_rul_rnn_model_optuna.h5', 'rnn_predictions.npy'</li>
 	</ul>
 </li>
-<li>In the "models" folder, run the workbook "SDAE.ipynb" from top to bottom.
+<li>In the "models" folder, run the notebook "SDAE.ipynb" from top to bottom.
 	<ul>
 	<li>This trains and tests a series of SDAE models using Optuna.</li>
 	<li>The best model is saved as a separate file and then evaluated on the test set.</li>
@@ -62,7 +62,7 @@
 	<li>Output: 'best_sdae_model_optuna_second.pth', 'sdae_predictions.npy'</li>
 	</ul>
 </li>
-<li>In the "models" folder, run the workbook "GBDT_Raw.ipynb" from top to bottom.
+<li>In the "models" folder, run the notebook "GBDT_Raw.ipynb" from top to bottom.
 	<ul>
 	<li>This trains and tests a series of GBDT models, saving the metrics in a log file.</li>
 	<li>Due to GBDT characteristics, notebook takes in the original unprocessed data (along with the dropped columns list) and performs its own processing.</li>
@@ -81,9 +81,9 @@
 Run Steps #1 and #2 as described in Section 3.1 of this README file. This will process the data and prepare input files for the TTM models.
 </li>
 
-<li>In the 'models' folder, run the workbook "FM_TTM-unsmoothed.ipynb" from top to bottom.
+<li>In the 'models' folder, run the notebook "FM_TTM-unsmoothed.ipynb" from top to bottom.
 	<ul>
-	<li>The workbook displays plots of time series forecasting predictions.</li>
+	<li>The notebook displays plots of time series forecasting predictions.</li>
 	<li>Inputs - from the "data/processed_data_pickle_files_no_smoothing/" directory: "test_data_no_batches.pkl" </li>
 	<li>Outputs - None of relevance. Results are realized and visualized in the notebook.</li>
 	</ul>
@@ -95,16 +95,16 @@ Run Steps #1 and #2 as described in Section 3.1 of this README file. This will p
 <p>
 <strong>RUL_Prediction </strong> - main directory, contains subdirectories, README file, and requirements file.
 <ul>
-	<li><strong>ARCHIVE</strong> - contains workbooks & files saved by the authors for future reference, but were not used in the final project deliverable. </li>
+	<li><strong>ARCHIVE</strong> - contains notebooks & files saved by the authors for future reference, but were not used in the final project deliverable. </li>
 	<li><strong>data</strong> - contains data, both raw and processed. Also contains "missing_indices.npy" which designated the selected features to use for modeling.
 		<ul>
 			<li><strong>CMAPSSData</strong> - original data as it was obtained from the NASA repository; also contains an informative paper from the data creators and a readme.</li>
 			<li><strong>batched_data_pickle_files</strong> - batched data files used for the original modeling.</li>
-			<li><strong>processed_data_pickle_files_no_smoothing</strong> - data files produced by the most recent "data_processing.ipynb" workbook.</li>
+			<li><strong>processed_data_pickle_files_no_smoothing</strong> - data files produced by the most recent "data_processing.ipynb" notebook.</li>
 		</ul>
 	</li>
-	<li><strong>data_processing</strong> - contains data cleaning and data processing workbooks. Processed the data to prepare it for the individual model inputs.</li>
-	<li><strong>models</strong> - contains all modeling workbooks, saved final models, model logs, and the "Visualizations.ipynb" workbook. 
+	<li><strong>data_processing</strong> - contains data cleaning and data processing notebooks. Processed the data to prepare it for the individual model inputs.</li>
+	<li><strong>models</strong> - contains all modeling notebooks, saved final models, model logs, and the "Visualizations.ipynb" notebook. 
 		<ul>
 			<li><strong>wandb</strong>- contains modeling logs from the TTM analysis. </li>
 		</ul>

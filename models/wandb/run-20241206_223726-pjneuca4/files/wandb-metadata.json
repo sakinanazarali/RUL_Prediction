@@ -1,0 +1,31 @@
+{
+  "os":  "Windows-10-10.0.22631-SP0",
+  "python":  "3.11.9",
+  "startedAt":  "2024-12-07T06:37:26.457701Z",
+  "program":  "c:\\Users\\e_nkanungo\\Desktop\\MADS_Capstone\\RUL_Prediction\\models\\FM_TTM-unsmoothed-truncated.ipynb",
+  "git":  {
+    "remote":  "https://github.com/sakinanazarali/RUL_Prediction",
+    "commit":  "2bd2ce2bb7c0187a8c04bbe8f0949423c2873d66"
+  },
+  "email":  "neil.kanungo@gmail.com",
+  "root":  "c:\\Users\\e_nkanungo\\Desktop\\MADS_Capstone\\RUL_Prediction\\models",
+  "host":  "A-LPTP-AWRmmVlZ",
+  "username":  "e_nkanungo",
+  "executable":  "c:\\Program Files\\Python311\\python.exe",
+  "codePathLocal":  "FM_TTM-unsmoothed-truncated.ipynb",
+  "cpu_count":  6,
+  "cpu_count_logical":  12,
+  "disk":  {
+    "/":  {
+      "total":  "254650871808",
+      "used":  "202292670464"
+    }
+  },
+  "memory":  {
+    "total":  "16442789888"
+  },
+  "cpu":  {
+    "count":  6,
+    "countLogical":  12
+  }
+}

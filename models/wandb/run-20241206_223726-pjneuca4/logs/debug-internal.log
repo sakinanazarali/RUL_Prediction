@@ -1,0 +1,7 @@
+{"time":"2024-12-06T22:37:26.4600194-08:00","level":"INFO","msg":"using version","core version":"0.18.6"}
+{"time":"2024-12-06T22:37:26.4600194-08:00","level":"INFO","msg":"created symlink","path":"c:\\Users\\e_nkanungo\\Desktop\\MADS_Capstone\\RUL_Prediction\\models\\wandb\\run-20241206_223726-pjneuca4\\logs\\debug-core.log"}
+{"time":"2024-12-06T22:37:26.6235014-08:00","level":"INFO","msg":"created new stream","id":"pjneuca4"}
+{"time":"2024-12-06T22:37:26.6235014-08:00","level":"INFO","msg":"stream: started","id":"pjneuca4"}
+{"time":"2024-12-06T22:37:26.6235014-08:00","level":"INFO","msg":"sender: started","stream_id":"pjneuca4"}
+{"time":"2024-12-06T22:37:26.6235014-08:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"pjneuca4"}}
+{"time":"2024-12-06T22:37:26.6235014-08:00","level":"INFO","msg":"handler: started","stream_id":{"value":"pjneuca4"}}

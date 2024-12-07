@@ -5,3 +5,7 @@
 {"time":"2024-12-06T22:37:26.6235014-08:00","level":"INFO","msg":"sender: started","stream_id":"pjneuca4"}
 {"time":"2024-12-06T22:37:26.6235014-08:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"pjneuca4"}}
 {"time":"2024-12-06T22:37:26.6235014-08:00","level":"INFO","msg":"handler: started","stream_id":{"value":"pjneuca4"}}
+{"time":"2024-12-06T22:37:27.1657987-08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-12-06T22:44:47.8831884-08:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-12-06T22:44:47.9920142-08:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-12-06T22:44:48.2123568-08:00","level":"INFO","msg":"Pausing system monitor"}

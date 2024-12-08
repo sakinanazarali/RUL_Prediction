@@ -23,7 +23,7 @@ Pickle module (nested within Python's Standard Library)
 
 
 DATA CLEANING/PREPROCESSING
-The data cleaning notebooks (data_cleaning.ipynb, data_cleaning_no_batching.ipynb) utilized the following library versions:
+The data cleaning notebook (data_cleaning.ipynb) utilized the following libraries:
 	SuperSmoother
 	Pandas
 	NumPy
@@ -32,7 +32,7 @@ The data cleaning notebooks (data_cleaning.ipynb, data_cleaning_no_batching.ipyn
 	OS
 	Pickle
 
-The data processing notebooks (data_processing.ipynb, data_processing_with_smoothing.ipynb) utilized the following library versions:
+The data processing notebooks (data_processing.ipynb, data_processing_with_smoothing.ipynb) utilized the following libraries:
 	SuperSmoother
 	Pandas
 	NumPy
@@ -41,16 +41,8 @@ The data processing notebooks (data_processing.ipynb, data_processing_with_smoot
 	OS
 	Pickle
 
-The data smoothing notebook (produce_smoothed_datasets.ipynb) utilized the following library versions:
-	Pandas
-	NumPy
-	Matplotlib
-	Seaborn
-	SuperSmoother
-	OS
-
 TTM MODELING
-The TTM modeling notebooks (.ipynb) utilized the following library versions:
+The TTM modeling notebooks (.ipynb) utilized the following libraries:
 	OS
 	math
 	tempfile
@@ -64,7 +56,7 @@ The TTM modeling notebooks (.ipynb) utilized the following library versions:
 	tsfm_public
 
 CNN MODELING
-The CNN modeling notebooks (CNN.ipynb, CNN_Smooth.ipynb) utilized the following library versions:
+The CNN modeling notebooks (CNN.ipynb) utilized the following library versions:
 	Pandas 2.2.3
 	Numpy 2.0.2
 	Altair 5.4.1
@@ -72,7 +64,7 @@ The CNN modeling notebooks (CNN.ipynb, CNN_Smooth.ipynb) utilized the following 
 	Keras 3.6.0
 
 GBDT MODELING
-The GBDT modeling notebooks (GBDT-Raw.ipynb, GBDT-Smooth.ipynb) utilized the following library versions:
+The GBDT modeling notebooks (GBDT-Raw.ipynb) utilized the following library versions:
 	Pandas 2.2.3
 	Numpy 2.0.2
 	Altair 5.4.1
@@ -80,7 +72,7 @@ The GBDT modeling notebooks (GBDT-Raw.ipynb, GBDT-Smooth.ipynb) utilized the fol
 	matplotlib 3.9.0
 
 SDAE MODELING
-The SDAE modeling notebook (SDAE.ipynb) utilized the following library versions:
+The SDAE modeling notebook (SDAE.ipynb) utilized the following libraries:
 	OS
 	Pickle
 	Torch
@@ -89,7 +81,7 @@ The SDAE modeling notebook (SDAE.ipynb) utilized the following library versions:
 	Optuna
 
 LSTM MODELING
-The LSTM modeling notebook (LSTM.ipynb) utilized the following library versions:
+The LSTM modeling notebook (LSTM.ipynb) utilized the following libraries:
 	OS
 	Pickle
 	NumPy
@@ -100,17 +92,11 @@ The LSTM modeling notebook (LSTM.ipynb) utilized the following library versions:
 	Keras
 
 RNN MODELING
-The RNN modeling notebook (RNN.ipynb) utilized the following library versions:
+The RNN modeling notebook (RNN.ipynb) utilized the following libraries:
 	Torch
 	Sklearn
 	NumPy
 	OS
 	Pickle
 	Optuna
-	
-
-
-
-
-
 

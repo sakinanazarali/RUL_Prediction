@@ -35,7 +35,7 @@
 	<li>Deciding which parameters/variables to change in each tuning group was an iterative process and took some time.</li>
 	<li>Rather than replicating Section 3.0, advised to look at the log results instead.</li>
 	<li>Saves a log of the tuning iterations, a final trained model (as a pickle file), and results from the final model.</li>
-	<li>Inputs: from the "data/batched_data_pickle_files/" directory: "processed_test_data.pkl", "processed_train_data.pkl", "processed_train_targets.pkl", "true_rul.pkl" </li>
+	<li>Inputs: from the "data/processed_data_pickle_files_no_smoothing/" directory: "test_data_batches.pkl", "train_data_batches.pkl", "true_rul_values.pkl", "train_target_values.pkl" </li>
 	<li>Outputs: "CNN_log.csv", "CNN_model_trained.keras", "CNN_model_trained_test_predictions.npy", "CNN_model_history.pkl"</li>
 	</ul>
 </li>
@@ -43,7 +43,7 @@
 	<ul>
 	<li>This trains and tests a series of LSTM models using Optuna.</li>
 	<li>The best model is saved as a separate file and then evaluated on the test set.</li>
-	<li>Inputs: from the "data/batched_data_pickle_files/" directory: "processed_test_data.pkl", "processed_train_data.pkl", "processed_train_targets.pkl", "true_rul.pkl"</li>
+	<li>Inputs: from the "data/processed_data_pickle_files_no_smoothing/" directory: "test_data_batches.pkl", "train_data_batches.pkl", "true_rul_values.pkl", "train_target_values.pkl" </li>
 	<li>Output: 'best_rul_lstm_model_optuna.h5', 'lstm_predictions.npy'</li>
 	</ul>
 </li>
@@ -51,7 +51,7 @@
 	<ul>
 	<li>This trains and tests a series of RNN models using Optuna.</li>
 	<li>The best model is saved as a separate file and then evaluated on the test set.</li>
-	<li>Inputs: from the "data/batched_data_pickle_files/" directory: "processed_test_data.pkl", "processed_train_data.pkl", "processed_train_targets.pkl", "true_rul.pkl"</li>
+	<li>Inputs: from the "data/processed_data_pickle_files_no_smoothing/" directory: "test_data_batches.pkl", "train_data_batches.pkl", "true_rul_values.pkl", "train_target_values.pkl" </li>
 	<li>Output: 'best_rul_rnn_model_optuna.h5', 'rnn_predictions.npy'</li>
 	</ul>
 </li>
@@ -59,7 +59,7 @@
 	<ul>
 	<li>This trains and tests a series of SDAE models using Optuna.</li>
 	<li>The best model is saved as a separate file and then evaluated on the test set.</li>
-	<li>Inputs: from the "data/batched_data_pickle_files/" directory: "processed_test_data.pkl", "processed_train_data.pkl", "processed_train_targets.pkl", "true_rul.pkl"</li>
+	<li>Inputs: from the "data/processed_data_pickle_files_no_smoothing/" directory: "test_data_batches.pkl", "train_data_batches.pkl", "true_rul_values.pkl", "train_target_values.pkl" </li>
 	<li>Output: 'best_sdae_model_optuna_second.pth', 'sdae_predictions.npy'</li>
 	</ul>
 </li>
@@ -81,11 +81,20 @@
 <li>
 Run Steps #1 and #2 as described in Section 3.1 of this README file. This will process the data and prepare input files for the TTM models.
 </li>
-
-<li>In the 'models/TTM' directory, run the notebook "FM_TTM-unsmoothed.ipynb" from top to bottom.
+<li>
+In the "data_processing" folder, run the notebook "data_processing_with_smoothing" from top to bottom to produce smoothed data inputs for the TTM modeling.
+</li>
+<li>In the 'models/TTM' directory, run the notebooks "FM_TTM-unsmoothed.ipynb" and "FM_TTM-unsmoothed-truncated.ipynb" from top to bottom.
 	<ul>
 	<li>The notebook displays plots of time series forecasting predictions.</li>
 	<li>Inputs - from the "data/processed_data_pickle_files_no_smoothing/" directory: "test_data_no_batches.pkl" </li>
+	<li>Outputs - None of relevance. Results are realized and visualized in the notebook.</li>
+	</ul>
+</li>
+<li>In the 'models/TTM' directory, run the notebook "FM_TTM-smoothed.ipynb" from top to bottom.
+	<ul>
+	<li>The notebook displays plots of time series forecasting predictions.</li>
+	<li>Inputs - from the "data/processed_data_pickle_files_with_smoothing/" directory: "test_data_no_batches.pkl" </li>
 	<li>Outputs - None of relevance. Results are realized and visualized in the notebook.</li>
 	</ul>
 </li>
@@ -95,7 +104,7 @@ Run Steps #1 and #2 as described in Section 3.1 of this README file. This will p
 ### 3.3 Visualizations
 <ol>
 <li>
-Run all steps as described in Section 3.1 and Section 3.2 of this README file. This will process the data and prepare input files for the Visualizations.
+Run all steps as described in Section 3.1 and Section 3.2 of this README file. This will process the data and prepare input files for the Visualizations. Visualizations can be viewed by running the "Visualizations.ipynb" notebook located in the models folder. 
 </li>
 </ol>
 
@@ -111,8 +120,8 @@ Run all steps as described in Section 3.1 and Section 3.2 of this README file. T
 	<li><strong>data</strong> - contains data, both raw and processed. Also contains "missing_indices.npy" which designated the selected features to use for modeling.
 		<ul>
 			<li><strong>CMAPSSData</strong> - original data as it was obtained from the NASA repository; also contains an informative paper from the data creators and a readme.</li>
-			<li><strong>batched_data_pickle_files</strong> - batched data files used for the original modeling.</li>
 			<li><strong>processed_data_pickle_files_no_smoothing</strong> - data files produced by the most recent "data_processing.ipynb" notebook.</li>
+			<li><strong>processed_data_pickle_files_with_smoothing</strong> - data files produced by the most recent "data_processing_with_smoothing.ipynb" notebook.</li>
 		</ul>
 	</li>
 	<li><strong>data_processing</strong> - contains data cleaning and data processing notebooks. Processed the data to prepare it for the individual model inputs.</li>

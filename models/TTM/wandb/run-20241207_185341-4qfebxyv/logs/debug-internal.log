@@ -6,3 +6,8 @@
 {"time":"2024-12-07T18:53:41.5093496-08:00","level":"INFO","msg":"handler: started","stream_id":{"value":"4qfebxyv"}}
 {"time":"2024-12-07T18:53:41.5093496-08:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"4qfebxyv"}}
 {"time":"2024-12-07T18:53:41.8129507-08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-12-07T19:00:58.6702406-08:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-12-07T19:00:58.8441574-08:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-12-07T19:00:59.1615838-08:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-12-07T19:07:29.7897979-08:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-12-07T19:07:30.0547042-08:00","level":"INFO","msg":"Pausing system monitor"}

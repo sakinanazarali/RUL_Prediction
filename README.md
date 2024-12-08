@@ -10,6 +10,7 @@
 <p>https://data.nasa.gov/Aerospace/CMAPSS-Jet-Engine-Simulated-Data/ff5v-kuh6/data</p>
 
 
+
 ## 3.0 Pipeline
 ### 3.1 Traditional Models
 <p>To replicate the modeling process, follow these steps:</p>
@@ -28,7 +29,7 @@
 	<li>Outputs: 'train_data_batches.pkl', 'train_target_values.pkl', 'test_data_batches.pkl', 'true_rul_values.pkl', 'train_data_no_batches.pkl', and 'test_data_no_batches.pkl'</li>
 	</ul>
 </li>
-<li>In the "models" folder, run the notebook "CNN.ipynb" from top to bottom.
+<li>In the "models/CNN" directory, run the notebook "CNN.ipynb" from top to bottom.
 	<ul>
 	<li>This trains and tests a series of CNN models, saving the metrics in a log file.</li>
 	<li>Deciding which parameters/variables to change in each tuning group was an iterative process and took some time.</li>
@@ -38,7 +39,7 @@
 	<li>Outputs: "CNN_log.csv", "CNN_model_trained.keras", "CNN_model_trained_test_predictions.npy", "CNN_model_history.pkl"</li>
 	</ul>
 </li>
-<li>In the "models" folder, run the notebook "LSTM.ipynb" from top to bottom.
+<li>In the "models/LSTM" directory, run the notebook "LSTM.ipynb" from top to bottom.
 	<ul>
 	<li>This trains and tests a series of LSTM models using Optuna.</li>
 	<li>The best model is saved as a separate file and then evaluated on the test set.</li>
@@ -46,7 +47,7 @@
 	<li>Output: 'best_rul_lstm_model_optuna.h5', 'lstm_predictions.npy'</li>
 	</ul>
 </li>
-<li>In the "models" folder, run the notebook "RNN.ipynb" from top to bottom.
+<li>In the "models/RNN" directory, run the notebook "RNN.ipynb" from top to bottom.
 	<ul>
 	<li>This trains and tests a series of RNN models using Optuna.</li>
 	<li>The best model is saved as a separate file and then evaluated on the test set.</li>
@@ -54,7 +55,7 @@
 	<li>Output: 'best_rul_rnn_model_optuna.h5', 'rnn_predictions.npy'</li>
 	</ul>
 </li>
-<li>In the "models" folder, run the notebook "SDAE.ipynb" from top to bottom.
+<li>In the "models/SDAE" directory, run the notebook "SDAE.ipynb" from top to bottom.
 	<ul>
 	<li>This trains and tests a series of SDAE models using Optuna.</li>
 	<li>The best model is saved as a separate file and then evaluated on the test set.</li>
@@ -62,7 +63,7 @@
 	<li>Output: 'best_sdae_model_optuna_second.pth', 'sdae_predictions.npy'</li>
 	</ul>
 </li>
-<li>In the "models" folder, run the notebook "GBDT_Raw.ipynb" from top to bottom.
+<li>In the "models/GBDT" directory, run the notebook "GBDT_Raw.ipynb" from top to bottom.
 	<ul>
 	<li>This trains and tests a series of GBDT models, saving the metrics in a log file.</li>
 	<li>Due to GBDT characteristics, notebook takes in the original unprocessed data (along with the dropped columns list) and performs its own processing.</li>
@@ -81,7 +82,7 @@
 Run Steps #1 and #2 as described in Section 3.1 of this README file. This will process the data and prepare input files for the TTM models.
 </li>
 
-<li>In the 'models' folder, run the notebook "FM_TTM-unsmoothed.ipynb" from top to bottom.
+<li>In the 'models/TTM' directory, run the notebook "FM_TTM-unsmoothed.ipynb" from top to bottom.
 	<ul>
 	<li>The notebook displays plots of time series forecasting predictions.</li>
 	<li>Inputs - from the "data/processed_data_pickle_files_no_smoothing/" directory: "test_data_no_batches.pkl" </li>
@@ -91,9 +92,20 @@ Run Steps #1 and #2 as described in Section 3.1 of this README file. This will p
 </ol>
 
 
+### 3.3 Visualizations
+<ol>
+<li>
+Run all steps as described in Section 3.1 and Section 3.2 of this README file. This will process the data and prepare input files for the Visualizations.
+</li>
+</ol>
+
+
+
+
 ## 4.0 Directory Tree
 <p>
 <strong>RUL_Prediction </strong> - main directory, contains subdirectories, README file, and requirements file.
+
 <ul>
 	<li><strong>ARCHIVE</strong> - contains notebooks & files saved by the authors for future reference, but were not used in the final project deliverable. </li>
 	<li><strong>data</strong> - contains data, both raw and processed. Also contains "missing_indices.npy" which designated the selected features to use for modeling.
@@ -106,7 +118,12 @@ Run Steps #1 and #2 as described in Section 3.1 of this README file. This will p
 	<li><strong>data_processing</strong> - contains data cleaning and data processing notebooks. Processed the data to prepare it for the individual model inputs.</li>
 	<li><strong>models</strong> - contains all modeling notebooks, saved final models, model logs, and the "Visualizations.ipynb" notebook. 
 		<ul>
-			<li><strong>wandb</strong>- contains modeling logs from the TTM analysis. </li>
+			<li><strong>CNN</strong>- contains models and modeling logs from the CNN analysis. </li>
+			<li><strong>GBDT</strong>- contains models and modeling logs from the GBDT analysis. </li>
+			<li><strong>LSTM</strong>- contains models and modeling logs from the LSTM analysis. </li>
+			<li><strong>RNN</strong>- contains models and modeling logs from the RNN analysis. </li>
+			<li><strong>SDAE</strong>- contains models and modeling logs from the SDAE analysis. </li>
+			<li><strong>TTM</strong>- contains models and modeling logs from the TTM analysis. </li>
 		</ul>
 	</li>
 </ul>

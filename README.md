@@ -116,7 +116,6 @@ Run all steps as described in Section 3.1 and Section 3.2 of this README file. T
 <strong>RUL_Prediction </strong> - main directory, contains subdirectories, README file, and requirements file.
 
 <ul>
-	<li><strong>ARCHIVE</strong> - contains notebooks & files saved by the authors for future reference, but were not used in the final project deliverable. </li>
 	<li><strong>data</strong> - contains data, both raw and processed. Also contains "missing_indices.npy" which designated the selected features to use for modeling.
 		<ul>
 			<li><strong>CMAPSSData</strong> - original data as it was obtained from the NASA repository; also contains an informative paper from the data creators and a readme.</li>

@@ -1,5 +1,3 @@
-For the RUL Prediction project, dependencies exist on the following libraries:
-
 Sklearn
 TensorFlow
 Keras
@@ -9,94 +7,11 @@ Seaborn
 Pandas
 NumPy
 SuperSmoother
-OS module (nested within Python's Standard Library)
+os
 math
 tempfile
 transformers
 tsfm_public
 torch
 optuna
-Pickle module (nested within Python's Standard Library)
-
-
-
-
-
-DATA CLEANING/PREPROCESSING
-The data cleaning notebook (data_cleaning.ipynb) utilized the following libraries:
-	SuperSmoother
-	Pandas
-	NumPy
-	Seaborn
-	Matplotlib
-	OS
-	Pickle
-
-The data processing notebooks (data_processing.ipynb, data_processing_with_smoothing.ipynb) utilized the following libraries:
-	SuperSmoother
-	Pandas
-	NumPy
-	Sklearn
-	Matplotlib
-	OS
-	Pickle
-
-TTM MODELING
-The TTM modeling notebooks (.ipynb) utilized the following libraries:
-	OS
-	math
-	tempfile
-	torch
-	transformers
-	numpy
-	pandas
-	pickle
-	matplotlib
-	sklearn
-	tsfm_public
-
-CNN MODELING
-The CNN modeling notebooks (CNN.ipynb) utilized the following library versions:
-	Pandas 2.2.3
-	Numpy 2.0.2
-	Altair 5.4.1
-	sklearn 1.5.0
-	Keras 3.6.0
-
-GBDT MODELING
-The GBDT modeling notebooks (GBDT-Raw.ipynb) utilized the following library versions:
-	Pandas 2.2.3
-	Numpy 2.0.2
-	Altair 5.4.1
-	sklearn 1.5.0
-	matplotlib 3.9.0
-
-SDAE MODELING
-The SDAE modeling notebook (SDAE.ipynb) utilized the following libraries:
-	OS
-	Pickle
-	Torch
-	NumPy
-	Sklearn
-	Optuna
-
-LSTM MODELING
-The LSTM modeling notebook (LSTM.ipynb) utilized the following libraries:
-	OS
-	Pickle
-	NumPy
-	TensorFlow
-	Sklearn
-	Optuna
-	Keras_tuner
-	Keras
-
-RNN MODELING
-The RNN modeling notebook (RNN.ipynb) utilized the following libraries:
-	Torch
-	Sklearn
-	NumPy
-	OS
-	Pickle
-	Optuna
-
+pickle

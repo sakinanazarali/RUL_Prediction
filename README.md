@@ -137,3 +137,8 @@ Run all steps as described in Section 3.1 and Section 3.2 of this README file. T
 </ul>
 </p>
 
+
+## 5.0 Technical Analysis
+<p>
+<strong>Report: </strong> https://drive.google.com/file/d/1K73fMpxAWj-F8QwfpKls8FrV0NbeXrL-/view?usp=sharing
+</p>
